@@ -1,0 +1,74 @@
+html{
+	top:70px;
+}
+ .header-text {
+	font-size: 32px;
+	font-weight: 600;
+	padding-bottom: 30px;
+	text-align: center;
+}
+ input {
+	margin: 10px 0px;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	width: 100%;
+	font-size: 18px;
+	font-family: poppins;
+}
+select{
+	margin: 10px 0px;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	width: 100%;
+	font-size: 18px;
+	font-family: poppins;
+}
+
+input[type=checkbox] {
+	display: none;
+}
+#lunchbox{
+    
+    background-color: black;
+    position: absolute;
+    left: 30%;
+    top: 1px;
+    border: 2px solid black;
+    border-radius: 1%;
+    width: 50vw;
+    height: 63vw;
+    opacity:0.5;
+
+}
+
+.table tr td{
+    padding: 0px;
+    position: relative;
+    left: 4vw;
+    box-sizing: border-box;
+    box-shadow: inset;
+    color:white; 
+    
+}
+
+
+.new_ask td a{
+    text-decoration: none;
+    color: white;
+    background-color: #5c285e;
+    position:relative;
+    left: 80%;
+}
+.form-box button {
+	background-color: deepskyblue;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+	padding: 10px;
+	margin: 20px 0px;
+}
